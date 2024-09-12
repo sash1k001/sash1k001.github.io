@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                MG
+            </div>
+            <div class="navbar">
+                <ul>
+                    <a href="#main_images"><li>images</li></a>
+                    <a href="#main_iframe"><li>iframe</li></a>
+                    <a href="#main_video"><li>video</li></a>
+                    <a href="#main_audio"><li>audio</li></a>
+                </ul>
+                <div class="nav__burger">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label class="burger" for="burger-checkbox"></label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            
+            <div id="main_images" class="main__images">
+                <div class="image__card">
+                    <img src="images/1.jpg" alt="">
+                </div>
+                <div class="image__card">
+                    <img src="images/2.jpg" alt="">
+                </div>
+                <div class="image__card">
+                    <img src="images/3.jpg" alt="">
+                </div>
+            </div>
+            <div id="main_iframe" class="main__iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk?si=qUNX7ElUszFb-72c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sEcRWahU9lA?si=vP7LOL57kPtrnReP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U5R_4btyYiU?si=KByKGCEW2or4r9Ve" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div id="main_video" class="main__video">
+                <video preload="false" loop="true" muted="muted" controls>
+                    <source src="media/1.mp4" type='video/mp4' />
+                </video>
+            </div>
+            <div id="main_audio" class="main__audio">
+                <audio src="media/3.mp3" controls></audio>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="https://google.com" target="_blank">Google</a>
+            <a href="https://samgk.ru/" target="_blank">SamGK</a>
+        </div>
+    </footer>
+</body>
+
+</html>
