@@ -308,7 +308,7 @@ body.no-scroll {
   font-size: 48px;
 }
 
-.firstcon-li span {
+.firstcon-li-span {
   max-width: 270px;
 }
 
@@ -626,5 +626,15 @@ a:hover {
 
   .sec-four-second {
     height: 200px;
+  }
+
+  .li-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+  }
+
+  .firstcon-li {
+    column-gap: 20px;
   }
 }
